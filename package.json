@@ -1,0 +1,14 @@
+{
+  "name": "bananas",
+  "version": "1.0.0",
+  "description": "bananas",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'"
+  },
+  "devDependencies": {
+    "netlify-cli": "latest"
+  }
+}
