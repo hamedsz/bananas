@@ -72,6 +72,7 @@ export default async function handler(request) {
       headers: responseHeaders,
     });
   } catch (error) {
+    console.error("Relay failed:", error);
     return new Response("Bad Gateway: Relay Failed", { status: 502 });
   }
 }
